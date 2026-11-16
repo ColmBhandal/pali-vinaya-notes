@@ -27,7 +27,7 @@ jobs:
         id: app-token
         uses: actions/create-github-app-token@main
         with:
-          client-id: ${{ vars.DEPOLY_APP_CLIENT_ID }}
+          client-id: ${{ vars.DEPLOY_APP_CLIENT_ID }}
           private-key: ${{ secrets.DEPLOY_APP_PRIVATE_KEY }}
           owner: obu-labs
           repositories: vinaya
